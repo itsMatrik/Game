@@ -1,0 +1,37 @@
+.root {
+    margin: 0;
+    height: 100vh; /* Используй vh для высоты */
+    overflow: hidden;
+    background-color: #ffac80;
+}
+
+.down {
+    background-color: orange;
+    width: 100%;
+    height: 40vh; /* Используй vh для высоты */
+    border-color: orangered;
+    border-width: 2vw; /* Используй vw для ширины границы */
+}
+
+.background {
+    background-image: url("/public/final_kitchen2.png");
+    background-size: 100% auto; /* Изменено на 100% auto */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vh;
+}
+
+.kettle_off {
+    font-size: 2em; /* Используй em для размера шрифта */
+    padding: 1em;
+}
+
+.score {
+    position: absolute;
+    bottom: 10vh; /* Используй vh для позиционирования */
+    left: 50vw; /* Используй vw для позиционирования */
+    text-align: center;
+    font-size: 2em; /* Используй em для размера шрифта */
+    padding: 1em; /* Используй em для отступов */
+    border: 1vw solid orangered; /* Используй vw для ширины границы */
+}

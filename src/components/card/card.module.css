@@ -1,0 +1,21 @@
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    width: 20vw; /* Используй vw для ширины */
+    align-items: center;
+}
+
+.name {
+    font-size: 3em; /* Используй em для размера шрифта */
+}
+
+.button {
+    background-color: orange;
+    padding: 0;
+    border: none;
+}
+
+.progress {
+    font-size: 2em; /* Используй em для размера шрифта */
+    white-space: nowrap;
+}

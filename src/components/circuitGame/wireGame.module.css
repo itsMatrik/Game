@@ -1,0 +1,45 @@
+.root {
+    display: flex;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: dimgray;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+}
+
+.background {
+    position: relative;
+    background-image: url("/public/wiretask.png");
+    width: 748px;
+    height: 749px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.wire {
+    width: 80px;
+    height: 70px;
+    margin: 95px 0;
+    border-radius: 0 20px 20px 0;
+}
+
+.socket {
+    border-radius: 20px 0px 0 20px;
+    width: 45px;
+    height: 70px;
+    margin: 95px 0;
+}
+
+.dopWire {
+    position: absolute;
+    right: 30px;
+    width: 650px;
+    height: 70px;
+}

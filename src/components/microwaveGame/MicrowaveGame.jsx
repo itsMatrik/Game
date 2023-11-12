@@ -18,13 +18,13 @@ const MicrowaveGame = ({ onFinish }) => {
             <div className={styles.targettime}>required time: {targetMinutes}:{targetSeconds}</div>
             <div>
                 <div>
-                    <button style={{backgroundColor: 'transparent', border: 'none'}} onClick={() => setMinutes(minutes + 1)}><img style={{width: '200px'}} src={'/button.png'}/></button>
-                    <button style={{backgroundColor: 'transparent', border: 'none'}} onClick={() => setSeconds(seconds + 1)}><img style={{width: '200px'}} src={'/button.png'}/></button>
+                    <button style={{backgroundColor: 'transparent', border: 'none'}} onClick={() => setMinutes(minutes + 1)}><img style={{width: '200px'}} src={'Game/button.png'}/></button>
+                    <button style={{backgroundColor: 'transparent', border: 'none'}} onClick={() => setSeconds(seconds + 1)}><img style={{width: '200px'}} src={'Game/button.png'}/></button>
                 </div>
                 <div className={styles.time}>{minutes} : {seconds}</div>
                 <div>
-                    <button style={{backgroundColor: 'transparent', border: 'none'}} onClick={() => setMinutes(minutes - 1)}><img style={{width: '200px'}} src={'/buttonDown.png'}/></button>
-                    <button style={{backgroundColor: 'transparent', border: 'none'}} onClick={() => setSeconds(seconds - 1)}><img style={{width: '200px'}} src={'/buttonDown.png'}/></button>
+                    <button style={{backgroundColor: 'transparent', border: 'none'}} onClick={() => setMinutes(minutes - 1)}><img style={{width: '200px'}} src={'Game/buttonDown.png'}/></button>
+                    <button style={{backgroundColor: 'transparent', border: 'none'}} onClick={() => setSeconds(seconds - 1)}><img style={{width: '200px'}} src={'Game/buttonDown.png'}/></button>
                 </div>
             </div>
         </div>

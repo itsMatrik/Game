@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import styles from './fridgeGame.module.css';
+
 const FridgeGame = ({ onFinish }) => {
     const [shelves, setShelves] = useState([
         { id: 0, targetTemp: Math.floor(Math.random() * 17) - 6, currentTemp: 0 },
@@ -39,8 +40,8 @@ const FridgeGame = ({ onFinish }) => {
                             <div>temperature now: {shelf.currentTemp}</div>
                         </div>
                         <div>
-                            <button style={{backgroundColor: 'transparent', border: 'none'}} onClick={() => handleTempChange(shelf.id, -1)}><img style={{width: '100px'}} src={'/buttonDown.png'}/></button>
-                            <button style={{backgroundColor: 'transparent', border: 'none'}} onClick={() => handleTempChange(shelf.id, 1)}><img style={{width: '100px'}} src={'/button.png'}/></button>
+                            <button style={{backgroundColor: 'transparent', border: 'none'}} onClick={() => handleTempChange(shelf.id, -1)}><img style={{width: '100px'}} src={'Game/buttonDown.png'}/></button>
+                            <button style={{backgroundColor: 'transparent', border: 'none'}} onClick={() => handleTempChange(shelf.id, 1)}><img style={{width: '100px'}} src={'Game/button.png'}/></button>
                         </div>
                     </div>
                 ))}

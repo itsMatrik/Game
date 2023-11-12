@@ -46,7 +46,7 @@ const FridgeGame = ({ onFinish }) => {
                     </div>
                 ))}
             </div>
-            <img style={{ width: '1000px' }} src={'Game/fridge.png'}/>
+            <img style={{ width: '1000px' }} src={'./fridge.png'}/>
         </div>
     );
 };

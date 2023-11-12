@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Game/static/css/main.b756b20f.css",
-    "main.js": "/Game/static/js/main.d8f73016.js",
+    "main.js": "/Game/static/js/main.e329bf6b.js",
     "static/media/final_kitchen2.png": "/Game/static/media/final_kitchen2.6b25ce54a62fb18a112f.png",
     "static/media/wiretask.png": "/Game/static/media/wiretask.040a1ad69a5b34acb183.png",
     "index.html": "/Game/index.html",
     "main.b756b20f.css.map": "/Game/static/css/main.b756b20f.css.map",
-    "main.d8f73016.js.map": "/Game/static/js/main.d8f73016.js.map"
+    "main.e329bf6b.js.map": "/Game/static/js/main.e329bf6b.js.map"
   },
   "entrypoints": [
     "static/css/main.b756b20f.css",
-    "static/js/main.d8f73016.js"
+    "static/js/main.e329bf6b.js"
   ]
 }

@@ -85,13 +85,13 @@ const Main = () => {
 
     const [boilTime, setBoilTime] = useState(Math.random() * (40 - 10) + 20);
     const timerId = useRef(null);
-    const [hero, setHero] = useState('/robot.png');
+    const [hero, setHero] = useState('Game/robot.png');
 
     const [score, setScore] = useState(0);
 
     const [gameOver, setGameOver] = useState(false);
 
-    const winSound = new Audio('/win2.mp3');
+    const winSound = new Audio('Game/win2.mp3');
 
     useEffect(() => {
         const intervalId = setInterval(() => {
@@ -147,16 +147,16 @@ const Main = () => {
 
 
     useEffect(() => {
-        let hero = '/robot.png'
+        let hero = 'Game/robot.png'
         const handleKeyDown = (event) => {
             switch (event.key) {
                 case 'a':
                     moveCharacter(-1);
-                    setHero('/robot_reverse.png');
+                    setHero('Game/robot_reverse.png');
                     break;
                 case 'd':
                     moveCharacter(1);
-                    setHero('/robot.png');
+                    setHero('Game/robot.png');
                     break;
                 default:
                     break;
@@ -227,7 +227,7 @@ const Main = () => {
                     <div className={styles.down}>
                         {cards.map(function (card) {
                             return (
-                                <div className={styles.button}>
+                                <div>
                                     {Math.abs(characterPosition - card.position) <= 3 && (
                                         card.name === 'kettle' && !card.is_boiling ? (
                                             <div className={styles.kettle_off}>Kettle is not ready</div>

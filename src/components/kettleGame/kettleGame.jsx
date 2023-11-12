@@ -13,7 +13,7 @@ const Kettle = () => {
 
     return (
         <div ref={drag} style={{ opacity: isDragging ? 0 : 1 }}>
-            <img style={{width: '700px' }} src="/chainik.png" alt="Чайник" />
+            <img style={{width: '700px' }} src="Game/chainik.png" alt="Чайник" />
         </div>
     );
 };
@@ -29,7 +29,7 @@ const Cup = ({ onDrop }) => {
 
     return (
         <div ref={drop} style={{ borderRadius: '20px', backgroundColor: isOver ? 'lightgreen' : 'orangered' }}>
-            <img style={{width: '400px'}}  src="/kruzka.png" alt="Кружка" />
+            <img style={{width: '400px'}}  src="Game/kruzka.png" alt="Кружка" />
         </div>
     );
 };

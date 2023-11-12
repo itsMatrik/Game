@@ -14,7 +14,7 @@
 
 .background {
     position: relative;
-    background-image: url("/public/wiretask.png");
+    background-image: url("Game/public/wiretask.png");
     width: 748px;
     height: 749px;
     background-repeat: no-repeat;

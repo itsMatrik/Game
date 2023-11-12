@@ -17,7 +17,7 @@ const DraggableBattery = ({ id, onDrop, status }) => {
 
     return (
         <div ref={drag} style={{ opacity: status ? 0.4 : 1}}>
-            <img style={{ width: '400px' }} src={'/battery.png'}/>
+            <img style={{ width: '400px' }} src={'Game/battery.png'}/>
         </div>
     );
 };

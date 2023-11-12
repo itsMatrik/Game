@@ -40,8 +40,8 @@ const FridgeGame = ({ onFinish }) => {
                             <div>temperature now: {shelf.currentTemp}</div>
                         </div>
                         <div>
-                            <button style={{backgroundColor: 'transparent', border: 'none'}} onClick={() => handleTempChange(shelf.id, -1)}><img style={{width: '100px'}} src={'Game/buttonDown.png'}/></button>
-                            <button style={{backgroundColor: 'transparent', border: 'none'}} onClick={() => handleTempChange(shelf.id, 1)}><img style={{width: '100px'}} src={'Game/button.png'}/></button>
+                            <button style={{backgroundColor: 'transparent', border: 'none'}} onClick={() => handleTempChange(shelf.id, -1)}><img style={{width: '100px'}} src={'https://drive.google.com/uc?export=view&id=1niS23aUBUrFQobhELrtmkbrECALolT-x'}/></button>
+                            <button style={{backgroundColor: 'transparent', border: 'none'}} onClick={() => handleTempChange(shelf.id, 1)}><img style={{width: '100px'}} src={'https://drive.google.com/uc?export=1D3j0FZnQngxnDedOTsCBm3sa1cElv4f-'}/></button>
                         </div>
                     </div>
                 ))}

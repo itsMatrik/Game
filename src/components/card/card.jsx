@@ -11,7 +11,7 @@ const Card = ({ name, toggleStatus, id, progress }) => {
                                 toggleStatus(id);
                             }}
                     >
-                        <img style={{ width: '60%' }} src="Game/knopka.png" onClick={() => {
+                        <img style={{ width: '60%' }} src="https://drive.google.com/uc?export=view&id=1eXUUIp_P2eGshtylD1d2i2eiwfNH7Th3" onClick={() => {
                             toggleStatus(id);
                         }}/>
                     </button>

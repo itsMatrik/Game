@@ -2,10 +2,10 @@ import { useState, useEffect } from 'react';
 import styles from './stoveGame.module.css'
 const StoveGame = ({ onFinish }) => {
     const [stoves, setStoves] = useState([
-        { id: 1, value: 0, img: 'Game/plita.png' },
-        { id: 2, value: 0, img: 'Game/plita.png' },
-        { id: 3, value: 0, img: 'Game/plita.png' },
-        { id: 4, value: 0, img: 'Game/plita.png' },
+        { id: 1, value: 0, img: 'https://drive.google.com/uc?export=view&id=1JBYNySidwwsN0cGjSbyCKTqW3m0lt0jc' },
+        { id: 2, value: 0, img: 'https://drive.google.com/uc?export=view&id=1JBYNySidwwsN0cGjSbyCKTqW3m0lt0jc' },
+        { id: 3, value: 0, img: 'https://drive.google.com/uc?export=view&id=1JBYNySidwwsN0cGjSbyCKTqW3m0lt0jc' },
+        { id: 4, value: 0, img: 'https://drive.google.com/uc?export=view&id=1JBYNySidwwsN0cGjSbyCKTqW3m0lt0jc' },
     ]);
 
     const [isFoodDropped, setIsFoodDropped] = useState(false);
@@ -55,7 +55,7 @@ const StoveGame = ({ onFinish }) => {
                         </div>
                     </div>
                 </div>
-                <img style={{ width: '800px', display: isFoodDropped ? 'none' : 'block' }} src='Game/skovodorka.png' draggable onDragStart={() => setSelectedFood(null)} alt='Еда' />
+                <img style={{ width: '800px', display: isFoodDropped ? 'none' : 'block' }} src='https://drive.google.com/uc?export=view&id=1Q7AkWuF9myL6p4aW6sb-XaWgPf6SGzph' draggable onDragStart={() => setSelectedFood(null)} alt='Еда' />
             </div>
         </div>
     );

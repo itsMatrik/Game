@@ -12,7 +12,7 @@ const BatterySlot = () => {
 
     return (
         <div ref={drop}>
-            <img style={{ width: "700px"}} src={"Game/clocks.png"}/>
+            <img style={{ width: "700px"}} src={"https://drive.google.com/uc?export=view&id=1-YCo2UReUsFIftCmD4atag63_xUP2cwA"}/>
         </div>
     );
 };

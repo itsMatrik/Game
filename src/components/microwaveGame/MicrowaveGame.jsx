@@ -18,8 +18,8 @@ const MicrowaveGame = ({ onFinish }) => {
             <div>required time: {targetMinutes}:{targetSeconds}</div>
             <div>
                 <div>
-                    <button style={{backgroundColor: 'transparent', border: 'none'}} onClick={() => setMinutes(minutes + 1)}><img style={{width: '200px'}} src={'https://drive.google.com/uc?export=1D3j0FZnQngxnDedOTsCBm3sa1cElv4f-'}/></button>
-                    <button style={{backgroundColor: 'transparent', border: 'none'}} onClick={() => setSeconds(seconds + 1)}><img style={{width: '200px'}} src={'https://drive.google.com/uc?export=1D3j0FZnQngxnDedOTsCBm3sa1cElv4f-'}/></button>
+                    <button style={{backgroundColor: 'transparent', border: 'none'}} onClick={() => setMinutes(minutes + 1)}><img style={{width: '200px'}} src={'https://drive.google.com/uc?export=view&id=1D3j0FZnQngxnDedOTsCBm3sa1cElv4f-'}/></button>
+                    <button style={{backgroundColor: 'transparent', border: 'none'}} onClick={() => setSeconds(seconds + 1)}><img style={{width: '200px'}} src={'https://drive.google.com/uc?export=view&id=1D3j0FZnQngxnDedOTsCBm3sa1cElv4f-'}/></button>
                 </div>
                 <div className={styles.time}>{minutes} : {seconds}</div>
                 <div>

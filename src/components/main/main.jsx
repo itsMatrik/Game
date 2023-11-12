@@ -85,7 +85,7 @@ const Main = () => {
 
     const [boilTime, setBoilTime] = useState(Math.random() * (40 - 10) + 20);
     const timerId = useRef(null);
-    const [hero, setHero] = useState('Game/robot.png');
+    const [hero, setHero] = useState('https://drive.google.com/uc?export=view&id=1BfWCrlZEEh7-cehOZu2kpUmQv20XZlS4');
 
     const [score, setScore] = useState(0);
 
@@ -147,16 +147,15 @@ const Main = () => {
 
 
     useEffect(() => {
-        let hero = 'Game/robot.png'
         const handleKeyDown = (event) => {
             switch (event.key) {
                 case 'a':
                     moveCharacter(-1);
-                    setHero('Game/robot_reverse.png');
+                    setHero('https://drive.google.com/uc?export=view&id=1yeHzXK8zpLQx6KET5jDYlQPXag8TOVzt');
                     break;
                 case 'd':
                     moveCharacter(1);
-                    setHero('Game/robot.png');
+                    setHero('https://drive.google.com/uc?export=view&id=1BfWCrlZEEh7-cehOZu2kpUmQv20XZlS4');
                     break;
                 default:
                     break;

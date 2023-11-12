@@ -14,7 +14,7 @@
 }
 
 .background {
-    background-image: url("Game/public/final_kitchen2.png");
+    background-image: url("/public/final_kitchen2.png");
     background-size: 100% auto; /* Изменено на 100% auto */
     background-repeat: no-repeat;
     width: 100%;

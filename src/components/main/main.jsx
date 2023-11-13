@@ -14,19 +14,15 @@ const Main = () => {
         {
             id: 0,
             name: "clocks",
-            power: 40,
-            energy: 250,
             is_on: true,
             progressbar: 100,
-            decrement: 12,
+            decrement: 15,
             isGameActive: false,
             position: 80
         },
         {
             id: 1,
             name: "kettle",
-            power: 40,
-            energy: 250,
             is_on: true,
             isGameActive: false,
             position: 30,
@@ -37,8 +33,6 @@ const Main = () => {
         {
             id: 2,
             name: "microwave",
-            power: 40,
-            energy: 250,
             is_on: true,
             isGameActive: false,
             position: 38,
@@ -48,8 +42,6 @@ const Main = () => {
         {
             id: 3,
             name: "oven",
-            power: 40,
-            energy: 250,
             is_on: true,
             isGameActive: false,
             position: 5,
@@ -59,24 +51,20 @@ const Main = () => {
         {
             id: 4,
             name: "fridge",
-            power: 40,
-            energy: 250,
             is_on: true,
             isGameActive: false,
             position: 48,
             progressbar: 100,
-            decrement: 11
+            decrement: 13
         },
         {
             id: 5,
             name: "wires",
-            power: 40,
-            energy: 250,
             is_on: true,
             isGameActive: false,
             position: 64,
             progressbar: 100,
-            decrement: 11
+            decrement: 16
         },
     ]);
 
@@ -92,6 +80,10 @@ const Main = () => {
     const [gameOver, setGameOver] = useState(false);
 
     const winSound = new Audio('Game/win2.mp3');
+
+    useEffect(() => {
+        winSound.load();
+    }, []);
 
     useEffect(() => {
         const intervalId = setInterval(() => {
@@ -127,7 +119,7 @@ const Main = () => {
             // Проверка границ
             if (newPosition < 0) {
                 newPosition = 0;
-            } else if (newPosition > 80) { // Измени на 80, чтобы учесть ширину персонажа (20vw)
+            } else if (newPosition > 80) {
                 newPosition = 80;
             }
 
@@ -154,6 +146,14 @@ const Main = () => {
                     setHero('https://drive.google.com/uc?export=view&id=1yeHzXK8zpLQx6KET5jDYlQPXag8TOVzt');
                     break;
                 case 'd':
+                    moveCharacter(1);
+                    setHero('https://drive.google.com/uc?export=view&id=1BfWCrlZEEh7-cehOZu2kpUmQv20XZlS4');
+                    break;
+                case 'ф':
+                    moveCharacter(-1);
+                    setHero('https://drive.google.com/uc?export=view&id=1yeHzXK8zpLQx6KET5jDYlQPXag8TOVzt');
+                    break;
+                case 'в':
                     moveCharacter(1);
                     setHero('https://drive.google.com/uc?export=view&id=1BfWCrlZEEh7-cehOZu2kpUmQv20XZlS4');
                     break;
@@ -216,10 +216,10 @@ const Main = () => {
                     <div className={styles.background}>
                         <img src={hero} style={{
                             position: 'absolute',
-                            left: `${characterPosition}vw`, // Используй vw для позиционирования
-                            bottom: '35vh', // Используй vh для позиционирования снизу
-                            width: '20vw', // Используй vw для размера
-                            height: '35vh', // Используй vh для высоты
+                            left: `${characterPosition}vw`,
+                            bottom: '35vh',
+                            width: '20vw',
+                            height: '35vh',
                             overflow: 'hidden'
                         }}/>
                     </div>

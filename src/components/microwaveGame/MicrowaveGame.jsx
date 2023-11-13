@@ -15,7 +15,7 @@ const MicrowaveGame = ({ onFinish }) => {
 
     return (
         <div className={styles.root}>
-            <div>required time: {targetMinutes}:{targetSeconds}</div>
+            <div className={styles.targettime}>required time: {targetMinutes}:{targetSeconds}</div>
             <div>
                 <div>
                     <button style={{backgroundColor: 'transparent', border: 'none'}} onClick={() => setMinutes(minutes + 1)}><img style={{width: '200px'}} src={'https://drive.google.com/uc?export=view&id=1D3j0FZnQngxnDedOTsCBm3sa1cElv4f-'}/></button>

@@ -13,7 +13,7 @@ const Kettle = () => {
 
     return (
         <div ref={drag} style={{ opacity: isDragging ? 0 : 1 }}>
-            <img style={{width: '700px' }} src="https://drive.google.com/uc?export=1Syvnd9aL0_xLZZaRctpP_XMm5eL67A4X" alt="Чайник" />
+            <img style={{width: '700px' }} src="https://drive.google.com/uc?export=view&id=1Syvnd9aL0_xLZZaRctpP_XMm5eL67A4X" alt="Чайник" />
         </div>
     );
 };

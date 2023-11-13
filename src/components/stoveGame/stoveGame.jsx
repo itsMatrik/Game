@@ -16,7 +16,6 @@ const StoveGame = ({ onFinish }) => {
 
     const handleDrop = (id) => {
         setSelectedFood({ stove: id, value: targetValue });
-        // Если еда перетаскивается на правильную плиту, установите isFoodDropped в true
         if (id === targetStove) {
             setIsFoodDropped(true);
         }

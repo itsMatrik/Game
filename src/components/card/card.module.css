@@ -1,12 +1,13 @@
 .buttonContainer {
     display: flex;
     flex-direction: column;
-    width: 20vw; /* Используй vw для ширины */
+    width: 20vw;
     align-items: center;
+    padding-left: 1em;
 }
 
 .name {
-    font-size: 3em; /* Используй em для размера шрифта */
+    font-size: 3em;
 }
 
 .button {
@@ -16,6 +17,6 @@
 }
 
 .progress {
-    font-size: 2em; /* Используй em для размера шрифта */
+    font-size: 2em;
     white-space: nowrap;
 }

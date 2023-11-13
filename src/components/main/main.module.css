@@ -29,9 +29,9 @@
 .score {
     position: absolute;
     bottom: 10vh; /* Используй vh для позиционирования */
-    left: 50vw; /* Используй vw для позиционирования */
+    left: 45vw; /* Используй vw для позиционирования */
     text-align: center;
-    font-size: 2em; /* Используй em для размера шрифта */
+    font-size: 2.5em; /* Используй em для размера шрифта */
     padding: 1em; /* Используй em для отступов */
-    border: 1vw solid orangered; /* Используй vw для ширины границы */
+    border: 0.6vw solid orangered; /* Используй vw для ширины границы */
 }

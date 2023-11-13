@@ -79,7 +79,7 @@ const Main = () => {
 
     const [gameOver, setGameOver] = useState(false);
 
-    const winSound = new Audio('Game/win2.mp3');
+    const winSound = new Audio('https://docs.google.com/uc?export=download&id=1BW_MExEqCpGULHb4gJKhnB6RUQnr_0Z1');
 
     useEffect(() => {
         winSound.load();

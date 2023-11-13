@@ -79,10 +79,10 @@ const Main = () => {
 
     const [gameOver, setGameOver] = useState(false);
 
-    const winSound = new Audio('https://drive.google.com/uc?export=view&id=1BW_MExEqCpGULHb4gJKhnB6RUQnr_0Z1');
+    const sound = new Audio('https://drive.google.com/uc?export=view&id=1BW_MExEqCpGULHb4gJKhnB6RUQnr_0Z1');
 
     useEffect(() => {
-        winSound.load();
+        sound.load();
     }, []);
 
     useEffect(() => {
@@ -116,7 +116,6 @@ const Main = () => {
         setCharacterPosition(oldPosition => {
             let newPosition = oldPosition + direction;
 
-            // Проверка границ
             if (newPosition < 0) {
                 newPosition = 0;
             } else if (newPosition > 80) {
@@ -205,7 +204,7 @@ const Main = () => {
             newCards[index].progressbar = 100;
         }
         setCards(newCards);
-        winSound.play();
+        sound.play();
     };
     return (
         <div className={styles.root}>

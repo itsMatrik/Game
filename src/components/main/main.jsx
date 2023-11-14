@@ -123,7 +123,7 @@ const Main = () => {
                     if (card.progressbar > 0) {
                         card.progressbar -= card.decrement;
                     } else {
-                        setGameOver(false)
+                        setGameOver(true)
                     }
                 }
             });

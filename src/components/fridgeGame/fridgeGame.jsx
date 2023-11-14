@@ -46,7 +46,7 @@ const FridgeGame = ({ onFinish }) => {
                     </div>
                 ))}
             </div>
-            <img style={{ width: '1000px' }} src={'https://drive.google.com/uc?export=view&id=1zNc0asMb68aZvsOVdMXzeiCrGkNtadbW'}/>
+            <img style={{ width: '50vw' }} src={'https://drive.google.com/uc?export=view&id=1zNc0asMb68aZvsOVdMXzeiCrGkNtadbW'}/>
         </div>
     );
 };

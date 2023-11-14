@@ -54,7 +54,7 @@ const StoveGame = ({ onFinish }) => {
                         </div>
                     </div>
                 </div>
-                <img style={{ width: '800px', display: isFoodDropped ? 'none' : 'block' }} src='https://drive.google.com/uc?export=view&id=1Q7AkWuF9myL6p4aW6sb-XaWgPf6SGzph' draggable onDragStart={() => setSelectedFood(null)} alt='Еда' />
+                <img style={{ width: '40vw', height: '40vw', display: isFoodDropped ? 'none' : 'block' }} src='https://drive.google.com/uc?export=view&id=1Q7AkWuF9myL6p4aW6sb-XaWgPf6SGzph' draggable onDragStart={() => setSelectedFood(null)} alt='Еда' />
             </div>
         </div>
     );

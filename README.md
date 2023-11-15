@@ -1,70 +1,10 @@
-# Getting Started with Create React App
+Weeeeeell, where to start...
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A week ago, on October 8, we were asked to do a school project.It supposed to be a game on theme "energy-saving".There were 3 of us, we won the school programming Olympiad,we all wrote in different languages,we had zero experience working in a team and we had no idea what kind of game it would be at all.The dream team! Oh, and also, we were given a deadline of one week.We spent two days trying to find a language with each other and understand what this game would look like.We stopped at the fact that we will make the game on the godot engine.I had no idea what it was, but the idea seemed cool to me, so we started making a game, and I studied this engine in parallel.We finished the project on Friday.And that's when I realized that this game is completely different from what we originally intended.As it turned out, one of the people from the team had almost no programming skills at all, and the second knew only python and the very basics of godot engine, and me, who had to learn a new engine in 2 days.Then I realized that I had to take the initiative into my own hands.And what can I do best?That's right, web-sites.And I started thinking.
 
-## Available Scripts
+Creating a game.
+		
+As it turned out, we moved the deadline to Monday, so I had only 2 days to create a game.Needless to say, these 2 days I did not get out of the IDE.
+I came up with the idea of the game on the go, so I didn't even know my game need to look like.In the process, I gained a lot of new knowledge and skills.I've perfected react hooks, especially useEffect, because the whole game is built on it.Finally, in practice, I realized how the multi-page reaction works, its main feature.I even used the DALL-E3 neural network to generate images for the game, because it's all made in pixel style.I also learned how to make movable elements, for example through the keys.And most importantly - I studied the new library - react dnd.Since a lot of elements of my game are built on this mechanics.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Overall, I am insanely proud of this project.Not its complexity, becaseu it's a very easy project.I am proud that in 2 days I learned so many cool things and features and made my first game.I didn't even bother to write such a detailed README, although no one will even read it xd.In any case, thank you, the person who took the time to read this whole story.
